@@ -5,10 +5,11 @@ import { Button } from "./Button";
 function HeroComponent() {
   return (
     <div className={styles.heroContainer}>
-      <img
-        src={process.env.PUBLIC_URL + "/images/stoj.jpeg"}
-        className={styles.heroImage}
-        alt="stoj"
+      <video
+        src={process.env.PUBLIC_URL + "/videos/sunce.mp4"}
+        autoPlay
+        loop
+        muted
       />
       <h1>Welcome to Azra Apartments</h1>
       <p>Spend an unforgettable vacation with us</p>
