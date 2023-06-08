@@ -6,6 +6,7 @@ function ImageGallery({ galleryImages }) {
   const [openModal, setOpenModal] = useState(false);
 
   return (
+    
     <div className={styles.galleryContainer}>
       <h1>Gallery</h1>
       <div className={styles.galleryWrap}>

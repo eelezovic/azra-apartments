@@ -43,7 +43,7 @@ function Footer() {
         </div>
       </section>
       <div className={styles.currentYear}>
-        <p> ©{currentYear} Emir Elezovic</p>
+        <p> ©{currentYear} Emir Elezovic Get Coding</p>
       </div>
     </div>
   );
