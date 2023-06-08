@@ -22,18 +22,16 @@
 .navbarLogo {
   color: #fff;
   justify-self: start;
-  margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
   display: flex;
   align-items: center;
 }
 
 img {
   margin-left: 0.5rem;
-  width: 250px;
-  height: 80px;
+  width: 220px;
+  height: 75px;
 }
 
 .navMenu {
@@ -61,7 +59,7 @@ img {
 }
 
 .navLinks:hover {
-  border-bottom: 4px solid #fff;
+  border-bottom: 4px solid whitesmoke;
   transition: all 0.2s ease-out;
 }
 
@@ -82,12 +80,13 @@ img {
     position: absolute;
     top: 0;
     left: 0;
+    margin-left: 20px;
   }
 
   img {
     margin-left: 0.5rem;
-    width: 150px;
-    height: 80px;
+    width: 160px;
+    height: 70px;
   }
 
   .navMenu {
@@ -104,7 +103,7 @@ img {
   }
 
   .navMenu.active {
-    background: #505050;
+    background: rgb(223, 201, 153);
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -119,8 +118,8 @@ img {
   }
 
   .navLinks:hover {
-    background-color: #fff;
-    color: #e3e3e3;
+    background-color: rgb(179, 144, 68);
+    color: white;
     border-radius: 0;
   }
   .menuIcon {
