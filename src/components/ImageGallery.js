@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import styles from "./ImageGallery.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTimesCircle, faChevronCircleLeft, faChevronCircleRight } from "@fortawesome/free-solid-svg-icons";
+import {
+  faTimesCircle,
+  faChevronCircleLeft,
+  faChevronCircleRight,
+} from "@fortawesome/free-solid-svg-icons";
 
 function ImageGallery({ galleryImages }) {
   const [slideNumber, setSlideNumber] = useState(0);
@@ -48,7 +52,10 @@ function ImageGallery({ galleryImages }) {
             onClick={nextSlide}
           />
           <div className={styles.fullScreenImage}>
-            <img src={galleryImages[slideNumber].src} alt={galleryImages[slideNumber].alt} />
+            <img
+              src={galleryImages[slideNumber].src}
+              alt={galleryImages[slideNumber].alt}
+            />
           </div>
         </div>
       )}
@@ -58,7 +65,11 @@ function ImageGallery({ galleryImages }) {
           {galleryImages &&
             galleryImages.map((slide, index) => {
               return (
-                <div className={styles.single} key={index} onClick={() => handleOpenModal(index)}>
+                <div
+                  className={styles.single}
+                  key={index}
+                  onClick={() => handleOpenModal(index)}
+                >
                   <img src={slide.src} alt={slide.alt} />
                 </div>
               );
@@ -70,5 +81,3 @@ function ImageGallery({ galleryImages }) {
 }
 
 export default ImageGallery;
-
-

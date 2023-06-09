@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "../pages/Home.module.css";
 import HeroComponent from "../HeroComponent";
 import Cards from "../Cards";
 import Footer from "../Footer";
@@ -31,7 +30,6 @@ const galleryImages = [
     alt: "Azra Apartments",
   },
 ];
-
 
 function Home() {
   return (
