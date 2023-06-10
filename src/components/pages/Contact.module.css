@@ -1,16 +1,132 @@
 .contact {
   display: flex;
-  height: 90vh;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: 3rem;
+  justify-content: space-around;
+  height: 100vh;
+  background-color: white; 
 }
 
-.contact {
-  background-image: url("/public/images/apartments1.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+.heading {
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: overline;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
 }
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.contactWrap {
+  display: flex;
+  width: 450px;
+  height: 450px;
+  background-color: #f0ecf1;
+}
+
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+  padding-left: 20px;
+}
+
+.whatsappIcon {
+  color: #25d366;
+  padding: 10px;
+  font-size: 2.5rem;
+  width: 5px;
+}
+
+.whatsappIcon:hover {
+  color: #5FFC7B;
+}
+
+.viberIcon {
+  color: #7360F2;
+  padding: 10px;
+  font-size: 2.5rem;
+  width: 5px;
+}
+
+.viberIcon:hover {
+  color:  #e2d4e7;
+}
+
+.phoneIcon {
+  display: flex;
+  flex-direction: row;
+  color: grey;
+  font-size: 2.5rem;
+  padding: 15px;
+}
+
+.phoneIcon p {
+  font-size: 1.5rem;
+  color: #2d2d2d;
+  padding-left: 20px;
+}
+
+.envelopeIcon {
+  display: flex;
+  flex-direction: row;
+  color: grey;
+  font-size: 2.5rem;
+  padding: 15px;
+}
+
+.envelopeIcon p {
+  font-size: 1.5rem;
+  color: #2d2d2d;
+  padding-left: 20px;
+}
+
+.mapSection {
+  width: 600px;
+  height: 450px;
+}
+
+.gmapFrame {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.gmapFrame iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .contact {
+    padding: 20px;
+  }
+  
+  .contactWrap {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .mapSection {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .content {
+    flex-direction: column;
+  }
+}
+

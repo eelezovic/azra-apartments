@@ -3,6 +3,7 @@ import styles from "./HeroComponent.module.css";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 
+
 function HeroComponent() {
   return (
     <div className={styles.heroContainer}>
@@ -19,7 +20,7 @@ function HeroComponent() {
           buttonStyle="button--outline"
           buttonSize="button--large"
         >
-            <Link to="/contact" className={styles.contactLink}>
+          <Link to="/contact" className={styles.contactLink}>
             Contact Us
           </Link>
         </Button>

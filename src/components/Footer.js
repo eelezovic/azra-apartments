@@ -33,7 +33,7 @@ function Footer() {
             </Link>
             <Link
               className={`${styles.socialIconLink} instagram`}
-              to="/"
+              to="https://www.instagram.com/azraapartmani/?igshid=NzAzN2Q1NTE%3D"
               target="_blank"
               aria-label="Instagram"
             >

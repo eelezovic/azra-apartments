@@ -1,8 +1,9 @@
 import React from "react";
 import HeroComponent from "../HeroComponent";
-import Cards from "../Cards";
 import Footer from "../Footer";
 import ImageGallery from "../ImageGallery";
+import Contact from "./Contact";
+import About from "./About";
 
 const galleryImages = [
   {
@@ -31,12 +32,15 @@ const galleryImages = [
   },
 ];
 
+export { galleryImages };
+
 function Home() {
   return (
     <>
       <HeroComponent />
-      <Cards />
       <ImageGallery galleryImages={galleryImages} />
+      <Contact />
+      <About />
       <Footer />
     </>
   );

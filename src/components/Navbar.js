@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import styles from "./Navbar.module.css";
 import { Button } from "./Button";
 
+
+
 function Navbar() {
   const [isMobile, setIsMobile] = useState(false);
   const [button, setButton] = useState(true);
@@ -30,20 +32,45 @@ function Navbar() {
           <div className={styles.menuIcon} onClick={handleClick}>
             <i className={isMobile ? "fas fa-times" : "fas fa-bars"} />
           </div>
-          <ul className={isMobile ? styles.navMenu + " " + styles.active : styles.navMenu}>
+          <ul
+            className={
+              isMobile ? styles.navMenu + " " + styles.active : styles.navMenu
+            }
+          >
             <li className={styles.navItem}>
-              <Link to="/" className={styles.navLinks} onClick={closeMobileMenu}>
+              <Link
+                to="/"
+                className={styles.navLinks}
+                onClick={closeMobileMenu}
+              >
                 Home
               </Link>
             </li>
             <li className={styles.navItem}>
-              <Link to="/services" className={styles.navLinks} onClick={closeMobileMenu}>
-                Services
+              <Link
+                to="/gallery"
+                className={styles.navLinks}
+                onClick={closeMobileMenu}
+              >
+                Gallery
               </Link>
             </li>
             <li className={styles.navItem}>
-              <Link to="/contact" className={styles.navLinks} onClick={closeMobileMenu}>
+              <Link
+                to="/contact"
+                className={styles.navLinks}
+                onClick={closeMobileMenu}
+              >
                 Contact
+              </Link>
+            </li>
+            <li className={styles.navItem}>
+              <Link
+                to="/about"
+                className={styles.navLinks}
+                onClick={closeMobileMenu}
+              >
+                About
               </Link>
             </li>
           </ul>
@@ -54,4 +81,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
