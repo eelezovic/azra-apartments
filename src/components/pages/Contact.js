@@ -7,36 +7,48 @@ function Contact() {
     <div className={styles.contact}>
       <h1 className={styles.heading}>Contact</h1>
       <div className={styles.content}>
-        <div className={styles.contactWrap}>
-          <div className={styles.contactSection}>
-            <Link
-              className={styles.whatsappIcon}
-              whatsapp
-              to="https://wa.me/38269299745"
-              target="_blank"
-              aria-label="WhatsApp"
-            >
-              <i className={"fa fa-whatsapp"} />
-              
-            </Link>
-            <Link
-              className={styles.viberIcon}
-              to="viber://add?number=38269299745"
-              target="_blank"
-              aria-label="Viber"
-            >
-              <i className={"fa-brands fa-viber"} />
-            </Link>
-            <div className={styles.phoneIcon}>
-              <i className={"fa-solid fa-phone"}></i>
-              <p>+382 69 299 745</p>
-            </div>
-            <div className={styles.envelopeIcon}>
-              <i className={"fa fa-envelope"}></i>
-              <p>azraapartmani@gmail.com</p>
-            </div>
-          </div>
-        </div>
+      <div className={styles.contactWrap}>
+  <h2 className={styles.title}>Contact us</h2>
+  <div className={styles.contactSection}>
+    <div className={styles.phoneIcon}>
+      <i className={"fa-solid fa-phone"}></i>
+      <p>+382 69 299 745</p>
+    </div>
+    <div className={styles.contactIcons}>
+      <div className={styles.envelopeIcon}>
+        <a
+          href="mailto:azraapartmani@gmail.com"
+          className={styles.emailLink}
+        >
+          <i className={"fa fa-envelope"}></i>
+        </a>
+        <p>azraapartmani@gmail.com</p>
+      </div>
+      <div className={styles.contactIcon}>
+        <Link
+          className={styles.whatsappIcon}
+          whatsapp
+          to="https://wa.me/38269299745"
+          target="_blank"
+          aria-label="WhatsApp"
+        >
+          <i className={"fa fa-whatsapp"} />
+         
+        </Link>
+        <Link
+          className={styles.viberIcon}
+          to="viber://add?number=38269299745"
+          target="_blank"
+          aria-label="Viber"
+        >
+          <i className={"fa-brands fa-viber"} />
+        </Link>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
         <div className={styles.mapSection}>
           <div className={styles.gmapFrame}>

@@ -15,7 +15,7 @@ function Footer() {
         </div>
         <div className={styles.footerLinkWrapper}>
           <div className={styles.footerLinkItems}>
-            <Link to="/services">About Us</Link>
+            <Link to="/about">About Us</Link>
           </div>
         </div>
       </div>

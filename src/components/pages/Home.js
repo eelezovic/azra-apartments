@@ -7,7 +7,7 @@ import About from "./About";
 
 const galleryImages = [
   {
-    src: process.env.PUBLIC_URL + "/images/apartments1.png",
+    src: process.env.PUBLIC_URL + "/images/apartmani3.JPG",
     alt: "Azra Apartments",
   },
   {
@@ -15,7 +15,7 @@ const galleryImages = [
     alt: "Azra Apartment",
   },
   {
-    src: process.env.PUBLIC_URL + "/images/apartmani3.JPG",
+    src: process.env.PUBLIC_URL + "/images/apartmani5.JPG",
     alt: "Azra Apartments",
   },
   {
@@ -23,11 +23,11 @@ const galleryImages = [
     alt: "Azra Apartments",
   },
   {
-    src: process.env.PUBLIC_URL + "/images/apartmani5.JPG",
+    src: process.env.PUBLIC_URL + "/images/apartmani6.JPG",
     alt: "Azra Apartments",
   },
   {
-    src: process.env.PUBLIC_URL + "/images/apartmani6.JPG",
+    src: process.env.PUBLIC_URL + "/images/stoj.jpeg",
     alt: "Azra Apartments",
   },
 ];
