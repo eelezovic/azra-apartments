@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/azra-apartments/static/css/main.4c61126c.css",
-    "main.js": "/azra-apartments/static/js/main.273ce9d5.js",
+    "main.css": "/azra-apartments/static/css/main.3851db94.css",
+    "main.js": "/azra-apartments/static/js/main.88c74e96.js",
     "index.html": "/azra-apartments/index.html",
-    "main.4c61126c.css.map": "/azra-apartments/static/css/main.4c61126c.css.map",
-    "main.273ce9d5.js.map": "/azra-apartments/static/js/main.273ce9d5.js.map"
+    "main.3851db94.css.map": "/azra-apartments/static/css/main.3851db94.css.map",
+    "main.88c74e96.js.map": "/azra-apartments/static/js/main.88c74e96.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c61126c.css",
-    "static/js/main.273ce9d5.js"
+    "static/css/main.3851db94.css",
+    "static/js/main.88c74e96.js"
   ]
 }
