@@ -27,14 +27,13 @@ function Contact() {
       <div className={styles.contactIcon}>
         <Link
           className={styles.whatsappIcon}
-          whatsapp
           to="https://wa.me/38269299745"
           target="_blank"
           aria-label="WhatsApp"
         >
           <i className={"fa fa-whatsapp"} />
-         
         </Link>
+        
         <Link
           className={styles.viberIcon}
           to="viber://add?number=38269299745"
