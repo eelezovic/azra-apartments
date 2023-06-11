@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# Azra Apartments - React.js Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Azra Apartments React.js app, designed for a small business. This application showcases the services and offerings of Azra Apartments, a family-owned business known for exceptional customer service for over 15 years.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+-Home Page: Provides an overview of Azra Apartments and its offerings.
 
-### `npm start`
+-Gallery Page: Displays a collection of images, which can be enlarged by clicking on them.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-Contact Page: Offers various contact options, including phone number, WhatsApp, Viber, and email. Additionally, a Google Map is embedded, showing the precise location of Azra Apartments. Customers can click on the map to get directions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-About Us Page: Provides detailed information about Azra Apartments. Read about our family-owned business located in the heart of Stoj, a popular destination on the Adriatic Sea. We offer one and two-bedroom apartments just a short walk away from beautiful sandy beaches, groceries, restaurants, bars, and bakeries. Our well-appointed apartments feature small kitchens, private bathrooms, balconies, TVs, AC, and free covered parking. At Azra Apartments, we take pride in providing personalized attention to ensure your stay is comfortable and memorable. Let us be your home away from home as you explore the wonders of the Adriatic coastline.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+React.js
+CSS
 
-### `npm run build`
+## Feedback and Contact
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I welcome your feedback and suggestions on how I can make this website even better. Please feel free to contact me on my [LinkedIn profile](https://www.linkedin.com/) or here on GitHub.
