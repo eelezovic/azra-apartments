@@ -14,8 +14,9 @@ Welcome to the Azra Apartments React.js app, designed for a small business. This
 
 ## Technologies Used
 
-React.js
-CSS
+-React.js
+
+-CSS
 
 ## Feedback and Contact
 
