@@ -1,6 +1,6 @@
 # Azra Apartments - React.js Website
 
-Welcome to the Azra Apartments React.js app, designed for a small business. This application showcases the services and offerings of Azra Apartments, a family-owned business known for exceptional customer service for over 15 years.
+Welcome to the Azra Apartments, designed for a small business. This application showcases the services and offerings of Azra Apartments, a family-owned business known for exceptional customer service for over 15 years.
 
 ## Features
 
