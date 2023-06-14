@@ -1,15 +1,26 @@
 .heroContainer {
+  margin-top: 0;
   height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  box-shadow: inset 0 0 0 1000px rgba(244, 131, 10, 0.227);
+}
+
+.backgroundImage {
+  margin-top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+  right: 0;
 }
 
 .heroContainer h1 {
-  color: whitesmoke;
+  color: white;
   font-size: 50px;
   font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua,
     Georgia, serif;
@@ -21,7 +32,7 @@
   display: flex;
   margin-top: 50px;
 }
-
+/*
 video {
   object-fit: cover;
   width: 100%;
@@ -29,7 +40,7 @@ video {
   position: fixed;
   z-index: -1;
 }
-
+*/
 .contactLink {
   color: white;
   text-decoration: none;
@@ -40,8 +51,8 @@ video {
   text-decoration: none;
 }
 
-@media screen and (max-width: 960) {
-  .heroContainer > h1 {
+@media screen and (max-width: 960px) {
+  .heroContainer h1 {
     font-size: 70px;
     margin-top: -150px;
   }

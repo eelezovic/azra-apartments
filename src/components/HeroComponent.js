@@ -3,15 +3,13 @@ import styles from "./HeroComponent.module.css";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 
-
 function HeroComponent() {
   return (
     <div className={styles.heroContainer}>
-      <video
-        src={process.env.PUBLIC_URL + "/videos/sunce.mp4"}
-        autoPlay
-        loop
-        muted
+      <img
+        src={process.env.PUBLIC_URL + "/images/background.jpg"}
+        alt="Background"
+        className={styles.backgroundImage}
       />
       <h1>Welcome to Azra Apartments</h1>
       <div className={styles.heroButton}>
@@ -30,3 +28,5 @@ function HeroComponent() {
 }
 
 export default HeroComponent;
+
+

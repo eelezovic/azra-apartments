@@ -110,7 +110,7 @@
   user-select: none; 
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 480px) {
   .galleryContainer {
     height: auto;
   }
@@ -121,7 +121,7 @@
   }
 
   .single {
-    width: calc(50% - 10px);
+    width: calc(50% - 5px);
     height: 200px;
   }
 

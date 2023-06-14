@@ -1,4 +1,5 @@
 import React from "react";
+// eslint-disable-next-line no-unused-vars
 import styles from "./App.module.css";
 import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";

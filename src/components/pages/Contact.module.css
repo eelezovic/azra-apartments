@@ -66,6 +66,12 @@
   margin-top: 20px;
 }
 
+.contactIcons a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .phoneIcon,
 .envelopeIcon {
   display: flex;
@@ -139,17 +145,7 @@
   margin-right: 5px;
 }
 
-.contactIcons {
-  display: flex;
-  justify-content: center;
-}
-
-.contactIcons a {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
+/* google map */ 
 .mapSection {
   width: 600px;
   height: 450px;
@@ -170,49 +166,43 @@
   height: 100%;
 }
 
+
 @media screen and (max-width: 960px) {
   .contact {
-    padding: 20px;
-    height: 100vh;
+    height: auto;
+  }
+
+  .content {
+    max-width: 100%;
+    flex-direction: column;
+    width: calc(80%);
   }
 
   .contactWrap {
     width: 100%;
-    height: auto;
+    height: 350px;
   }
 
   .heading {
+    margin-top: 20px;
     margin-bottom: 20px;
   }
 
   .contactSection {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
-  }
-  .contactWrap {
-    width: 430px;
   }
 
   .title {
     display: none;
   }
 
-  .phoneIcon,
-  .envelopeIcon {
-    gap: 15px;
-  }
-
-  .contactIcon {
-    gap: 20px;
-    margin-bottom: 15px;
-  }
 
   .mapSection {
-    width: 100%;
+    max-width: 100%;
     height: 250px;
   }
 
-  .content {
-    flex-direction: column;
-  }
+ 
 }

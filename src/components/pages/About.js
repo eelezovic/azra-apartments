@@ -7,7 +7,6 @@ function About() {
       <h1 className={styles.heading}>About Us</h1>
       <div className={styles.aboutWrap}>
         <p>
-          
           Welcome to Azra Apartments, a family-owned business renowned for
           exceptional customer service for over 15 years. Located in the heart
           of Stoj, a popular destination on the Adriatic Sea, we offer one and
