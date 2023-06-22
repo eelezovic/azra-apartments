@@ -43,11 +43,14 @@ function Footer() {
         </div>
       </section>
       <div className={styles.currentYear}>
-        <p> ©{currentYear} Emir Elezovic Get Coding</p>
+        <p>
+          {" "}
+          ©{currentYear}{" "}
+          <a href="https://github.com/eelezovic">Emir Elezovic</a>{" "}
+        </p>
       </div>
     </div>
   );
 }
 
 export default Footer;
-

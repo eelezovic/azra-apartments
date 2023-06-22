@@ -32,6 +32,7 @@
   display: flex;
   margin-top: 50px;
 }
+
 /*
 video {
   object-fit: cover;
@@ -44,6 +45,7 @@ video {
 .contactLink {
   color: white;
   text-decoration: none;
+  padding: 12px;
 }
 
 .contactLink:hover {
