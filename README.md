@@ -22,3 +22,8 @@ Welcome to the Azra Apartments, designed for a small business. This application 
 
 I welcome your feedback and suggestions on how I can make this website even better. Please feel free to check out my project at [Azra Apartments](https://eelezovic.github.io/azra-apartments/#/)
  contact me on my [LinkedIn profile](https://www.linkedin.com/) or here on GitHub.
+
+ ## Website screenshot
+
+ ![Screenshot 2024-02-13 at 23 01 34](https://github.com/eelezovic/azra-apartments/assets/107818535/4bff5f1e-4985-4149-804b-389c5c0449f2)
+
