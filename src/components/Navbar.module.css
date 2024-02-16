@@ -1,6 +1,5 @@
-
 .navbar {
-  background:  white;
+  background: white;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -22,17 +21,14 @@
 
 .navbarLogo {
   color: #fff;
-  justify-self: start;
   cursor: pointer;
   text-decoration: none;
   display: flex;
-  align-items: center;
 }
 
 img {
-  margin-left: 0.5rem;
-  width: 220px;
-  height: 75px;
+  width: 150px;
+  height: 60px;
 }
 
 .navMenu {
@@ -73,21 +69,26 @@ img {
 }
 
 @media screen and (max-width: 960px) {
+  .navbar {
+    display: flex;
+    justify-content: start;
+  }
+
   .NavbarItems {
     position: relative;
   }
 
   .navbarLogo {
-    position: absolute;
+    display: flex;
+    align-items: center;
     top: 0;
     left: 0;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   img {
-    margin-left: 0.5rem;
-    width: 160px;
-    height: 70px;
+    width: 100px;
+    height: 50px;
   }
 
   .navMenu {
