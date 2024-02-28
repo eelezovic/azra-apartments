@@ -1,14 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "../pages/Contact.module.css";
+import { useTranslation } from 'react-i18next';
 
 function Contact() {
+  const { t } = useTranslation();
+
   return (
     <div className={styles.contact}>
-      <h1 className={styles.heading}>Contact</h1>
+          <h1 className={styles.heading}>{t('contact.title')}</h1>
       <div className={styles.content}>
         <div className={styles.contactWrap}>
-          <h2 className={styles.title}>Contact us</h2>
+        <h2 className={styles.title}>{t('contact.contactUs')}</h2>
           <div className={styles.contactSection}>
             <div className={styles.phoneIcon}>
               <i className={"fa-solid fa-phone"}></i>

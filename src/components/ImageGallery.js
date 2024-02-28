@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./ImageGallery.module.css";
+import { useTranslation } from 'react-i18next';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTimesCircle,
@@ -10,6 +11,8 @@ import {
 function ImageGallery({ galleryImages }) {
   const [slideNumber, setSlideNumber] = useState(0);
   const [openModal, setOpenModal] = useState(false);
+
+  const { t } = useTranslation();
 
   const handleOpenModal = (index) => {
     setSlideNumber(index);
@@ -60,7 +63,7 @@ function ImageGallery({ galleryImages }) {
         </div>
       )}
       <div className={styles.galleryContainer}>
-        <h1>Gallery</h1>
+      <h1>{t('gallery.title')}</h1> 
         <div className={styles.galleryWrap}>
           {galleryImages &&
             galleryImages.map((slide, index) => {

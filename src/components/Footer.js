@@ -1,8 +1,10 @@
 import React from "react";
 import styles from "./Footer.module.css";
 import { Link } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 
 function Footer() {
+  const { t } = useTranslation(); 
   const currentYear = new Date().getFullYear();
 
   return (
@@ -10,12 +12,12 @@ function Footer() {
       <div className={styles.footerLinks}>
         <div className={styles.footerLinkWrapper}>
           <div className={styles.footerLinkItems}>
-            <Link to="/contact">Contact Us</Link>
+            <Link to="/contact">{t('footer.contactUs')}</Link> 
           </div>
         </div>
         <div className={styles.footerLinkWrapper}>
           <div className={styles.footerLinkItems}>
-            <Link to="/about">About Us</Link>
+            <Link to="/about">{t('footer.aboutUs')}</Link> 
           </div>
         </div>
       </div>
@@ -43,11 +45,7 @@ function Footer() {
         </div>
       </section>
       <div className={styles.currentYear}>
-        <p>
-          {" "}
-          ©{currentYear}{" "}
-          <a href="https://github.com/eelezovic">Emir Elezovic</a>{" "}
-        </p>
+        <p>©{currentYear} <a href="https://github.com/eelezovic">Emir Elezovic</a></p> 
       </div>
     </div>
   );

@@ -1,0 +1,35 @@
+{
+  "navbar": {
+    "home": "Shtëpi",
+    "gallery": "Galeri",
+    "contact": "Kontakt",
+    "about": "Rreth Nesh"
+  },
+  "hero": {
+    "welcome": "Mirësevini në Azra Apartments"
+  },
+  "footer": {
+    "contactUs": "Na Kontaktoni",
+    "aboutUs": "Rreth Nesh",
+    "copyright": "© 2024 Azra Apartments. Të gjitha të drejtat e rezervuara."
+  },
+  "home": {
+    "welcome": "Mirësevini në Azra Apartments",
+    "description": "Zbuloni rehati dhe lehtësi pranë detit..."
+  },
+  "about": {
+    "title": "Rreth Nesh",
+    "content": "Mirësevini në Azra Apartments, një biznes familjar i njohur për shërbim të jashtëzakonshëm ndaj klientit për më shumë se 15 vjet. E vendosur në zemër të Stojit, një destinacion popullor në Detin Adriatik, ne ofrojmë apartamente me një dhe dy dhoma gjumi vetëm disa hapa larg nga plazhet e bukura me rërë, dyqanet ushqimore, restorantet, baret dhe furrat e bukës. Apartamentet tona të mirëorganizuara përmbajnë kuzhina të vogla, banjo private, ballkone, televizorë, AC dhe parkim të mbuluar falas. Në Azra Apartments, ne krenohemi në ofrimin e vëmendjes personale për të siguruar që qëndrimi juaj të jetë i rehatshëm dhe i paharrueshëm. Le të jemi shtëpia juaj larg shtëpisë ndërsa eksploroni mrekullitë e bregdetit Adriatik."
+  },
+  "contact": {
+    "title": "Kontakti",
+    "contactUs": "Na Kontaktoni",
+    "phoneLabel": "Telefon",
+    "emailLabel": "Email",
+    "social": "Na ndiqni në rrjetet sociale"
+  },
+  "gallery": {
+    "title": "Galeri"
+  },
+  "contactUs": "Na Kontaktoni"
+}
