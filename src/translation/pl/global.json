@@ -1,0 +1,35 @@
+{
+  "navbar": {
+    "home": "Strona główna",
+    "gallery": "Galeria",
+    "contact": "Kontakt",
+    "about": "O nas"
+  },
+  "hero": {
+    "welcome": "Witaj w Apartamentach Azra"
+  },
+  "footer": {
+    "contactUs": "Skontaktuj się z nami",
+    "aboutUs": "O nas",
+    "copyright": "© 2024 Apartamenty Azra. Wszelkie prawa zastrzeżone."
+  },
+  "home": {
+    "welcome": "Witaj w Apartamentach Azra",
+    "description": "Odkryj wygodę i wygodę nad morzem..."
+  },
+  "about": {
+    "title": "O nas",
+    "content": "Witaj w Apartamentach Azra, rodzinnej firmie znanej z doskonałej obsługi klienta od ponad 15 lat. Zlokalizowane w sercu Stoj, popularnego miejsca na Morzu Adriatyckim, oferujemy apartamenty jedno- i dwuosobowe, zaledwie kilka minut spacerem od pięknych plaż, sklepów spożywczych, restauracji, barów i piekarni. Nasze dobrze wyposażone apartamenty posiadają niewielkie kuchnie, prywatne łazienki, balkony, telewizory, klimatyzację i bezpłatny parking podziemny. W Apartamentach Azra dbamy o zapewnienie spersonalizowanej uwagi, aby Twój pobyt był wygodny i niezapomniany. Pozwól nam być Twoim domem z dala od domu, gdy odkrywasz cuda wybrzeża Adriatyku."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "contactUs": "Skontaktuj się z nami",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-mail",
+    "social": "Śledź nas w mediach społecznościowych"
+  },
+  "gallery": {
+    "title": "Galeria"
+  }
+}
+

@@ -15,14 +15,12 @@ function Navbar() {
     <>
       <nav className={styles.navbar}>
         <div className={styles.navbarContainer}>
-          
           <Link to="/" className={styles.navbarLogo} onClick={closeMobileMenu}>
             <img src={process.env.PUBLIC_URL + "/images/azra.JPG"} alt="Azra" />
           </Link>
           <div className={styles.menuIcon} onClick={handleClick}>
             <i className={isMobile ? "fas fa-times" : "fas fa-bars"} />
           </div>
-          <LanguageSwitcher />
           <ul className={`${styles.navMenu} ${isMobile ? styles.active : ""}`}>
             <li className={styles.navItem}>
               <Link to="/" className={styles.navLinks} onClick={closeMobileMenu}>
@@ -45,6 +43,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
+          <LanguageSwitcher />
         </div>
       </nav>
     </>
@@ -52,5 +51,6 @@ function Navbar() {
 }
 
 export default Navbar;
+
 
 

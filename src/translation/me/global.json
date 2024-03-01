@@ -1,0 +1,35 @@
+{
+  "navbar": {
+    "home": "Početna",
+    "gallery": "Galerija",
+    "contact": "Kontakt",
+    "about": "O nama"
+  },
+  "hero": {
+    "welcome": "Dobrodošli u Apartmane Azra"
+  },
+  "footer": {
+    "contactUs": "Kontaktirajte nas",
+    "aboutUs": "O nama",
+    "copyright": "© 2024 Apartmani Azra. Sva prava zadržana."
+  },
+  "home": {
+    "welcome": "Dobrodošli u Apartmani Azra",
+    "description": "Otkrijte udobnost i praktičnost uz more..."
+  },
+  "about": {
+    "title": "O nama",
+    "content": "Dobrodošli u Apartmane Azra, porodični posao poznat po izuzetnoj usluzi za goste već više od 15 godina. Smješteni u srcu Stoja, popularne destinacije na Jadranskom moru, nudimo jednosobne i dvosobne apartmane na samo nekoliko minuta hoda od prekrasnih pješčanih plaža, prodavnica, restorana, barova i pekara. Naši dobro opremljeni apartmani sadrže male kuhinje, privatne kupatila, balkone, televizore, klima uređaje  i besplatan pokriveni parking. U Apartmanima Azra, ponosimo se pružanjem personalizovane pažnje kako bi vaš boravak bio udoban i nezaboravan. Dopustite nam da budemo vaš dom daleko od kuće dok istražujete ljepote jadranske obale."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "contactUs": "Kontaktirajte nas",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-mail",
+    "social": "Pratite nas na društvenim mrežama"
+  },
+  "gallery": {
+    "title": "Galerija"
+  }
+}
+
