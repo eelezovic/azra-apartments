@@ -14,7 +14,7 @@ function HeroComponent() {
       <div className={styles.heroButton}>
         <Button className={styles.buttons} buttonStyle="button--outline" buttonSize="button--large">
           <Link to="/contact" className={styles.contactLink}>
-            {t('contactUs')} 
+            {t('contact.contactUs')} 
           </Link>
         </Button>
       </div>

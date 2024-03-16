@@ -1,0 +1,34 @@
+{
+  "navbar": {
+    "home": "Domovská stránka",
+    "gallery": "Galerie",
+    "contact": "Kontakt",
+    "about": "O nás"
+  },
+  "hero": {
+    "welcome": "Vítejte v Apartmány Azra"
+  },
+  "footer": {
+    "contactUs": "Kontaktujte nás",
+    "aboutUs": "O nás",
+    "copyright": "© 2024 Apartmány Azra. Všechna práva vyhrazena."
+  },
+  "home": {
+    "welcome": "Vítejte v Apartmány Azra",
+    "description": "Objevte pohodlí a pohodlí u moře..."
+  },
+  "about": {
+    "title": "O nás",
+    "content": "Vítejte v Apartmány Azra, rodinný podnik známý pro vynikající zákaznický servis po dobu více než 15 let. Nacházející se v srdci Stoj, oblíbené destinace na Jadranu, nabízíme jedno- a dvoupokojové apartmány jen pár kroků od krásných písčitých pláží, potravin, restaurací, barů a pekáren. Naše dobře vybavené apartmány mají malé kuchyně, soukromé koupelny, balkony, televize, klimatizaci a bezplatné kryté parkování. V Apartmány Azra si zakládáme na poskytování osobní pozornosti, abychom zajistili, že váš pobyt bude pohodlný a nezapomenutelný. Nechte nás být vaším domovem mimo domov, když objevujete divy pobřeží Jaderského moře."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "contactUs": "Kontaktujte nás",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-mail",
+    "social": "Sledujte nás na sociálních médiích"
+  },
+  "gallery": {
+    "title": "Galerie"
+  }
+}
